@@ -1,16 +1,41 @@
 # project_akhir_195411042
 
-A new Flutter project.
+- Halaman Pertama HomePage
 
-## Getting Started
+extends dengan Statefullwidget
+Membuat Scaffold atau suatu halaman page 
+pada app bar saya beri tulisan title “ HOME”
+body rata tengah
+dan membuat column untuk tempat manaruh gambar “myfoto.JPG”
+saya menyisipkan gambar dengan mengaktifkan asset di file pubspec.yaml
+dan menginputkan direktori dan file name foto tersebut.
 
-This project is a starting point for a Flutter application.
+dan di dalam gambar tersebut saya set container agar dapat merubah ukuran sesuai keinginan
 
-A few resources to get you started if this is your first Flutter project:
+dan pada text di bawah gambar “myfoto.JPG” saya isi dengan title “Perkenalkan nama saya ABDUL ROOFI’U”
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+dan pada button untuk menuju halaman selanjutnya saya memanfaatkan Elevatedbutton yang dikombinasikan dengan Navigator-push yang ketika di klik akan menuju ke halaman ProfilePage.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+-Halaman Kedua ProfilePage
+
+extends dengan StatelessWidget
+Membuat Scaffold
+pada app bar saya beri tulisan title “ PROFILE”
+body rata tengah
+dan membuat column untuk tempat manaruh tilte yang berisi data diri saya
+
+pada button “NEXT PAGE”  untuk menuju halaman selanjutnya, saya memanfaatkan Elevatedbutton yang dikombinasikan dengan Navigator-push yang ketika di klik akan menuju ke halaman ProfilePage.
+
+dan pada button “BACK PAGE”  untuk menuju halaman sebelumnya, saya memanfaatkan Elevatedbutton yang dikombinasikan dengan Navigator-pop yang ketika di klik akan menuju ke halaman Utama atau Homepage.
+
+- EndPage (Halaman Terakhir)
+
+extends dengan StatelessWidget
+Membuat Scaffold atau suatu halaman page 
+pada app bar saya saya kosongkan
+body rata tengah
+dan membuat column untuk tempat manaruh gambar “utdi-logo.png”
+
+dan di dalam gambar tersebut saya set container agar dapat merubah ukuran sesuai keinginan
+
+dan pada button untuk menuju halaman sebelumnya, saya memanfaatkan Elevatedbutton yang dikombinasikan dengan Navigator-pop yang ketika di klik akan menuju ke halaman ProfilePage.
