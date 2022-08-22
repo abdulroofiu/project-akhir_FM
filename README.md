@@ -16,7 +16,7 @@ dan pada text di bawah gambar “myfoto.JPG” saya isi dengan title “Perkenal
 
 dan pada button untuk menuju halaman selanjutnya saya memanfaatkan Elevatedbutton yang dikombinasikan dengan Navigator-push yang ketika di klik akan menuju ke halaman ProfilePage.
 
--Halaman Kedua ProfilePage
+- Halaman Kedua ProfilePage
 
 extends dengan StatelessWidget
 Membuat Scaffold
